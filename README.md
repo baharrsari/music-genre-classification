@@ -1,4 +1,4 @@
-# Music Genre Classification
+# 🎵 Music Genre Classification
 
 An end-to-end project that classifies **10 different music genres** using
 classical machine learning algorithms on acoustic features extracted from
@@ -11,7 +11,7 @@ Python modules under the `src/` directory.
 
 ---
 
-## Project Goals
+## 🎯 Project Goals
 
 - Compare multiple machine learning algorithms on the same dataset and
   identify which one performs best at music genre classification
@@ -21,7 +21,7 @@ Python modules under the `src/` directory.
 
 ---
 
-## Dataset: GTZAN
+## 🎼 Dataset: GTZAN
 
 - **Source:** [GTZAN Genre Collection](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
 - **Content:** 1000 audio clips in total — 100 clips per genre, each 30 seconds long (`.wav`)
@@ -35,7 +35,7 @@ Python modules under the `src/` directory.
 
 ---
 
-## Folder Structure
+## 📁 Folder Structure
 
 ```
 MusicGenreClassification/
@@ -65,7 +65,7 @@ MusicGenreClassification/
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Python 3**
 - **librosa** — audio processing and feature extraction
@@ -77,7 +77,7 @@ MusicGenreClassification/
 
 ---
 
-## Pipeline Overview
+## 🔄 Pipeline Overview
 
 The main notebook (`notebooks/01_main_pipeline.ipynb`) is organized into
 10 main sections:
@@ -95,7 +95,7 @@ The main notebook (`notebooks/01_main_pipeline.ipynb`) is organized into
 
 ---
 
-## Extracted Features
+## 🎚️ Extracted Features
 
 The `extract_basic_features()` function in `src/feature_extraction.py`
 reduces each audio file to a **single fixed-length feature vector**.
@@ -114,7 +114,7 @@ computed (to capture average behavior as well as variability):
 
 ---
 
-## Models
+## 🤖 Models
 
 | # | Model | Library |
 |---|---|---|
@@ -130,7 +130,7 @@ tuned via `GridSearchCV` to obtain an optimized version.
 
 ---
 
-## Evaluation Metrics
+## 📏 Evaluation Metrics
 
 Models are not judged by accuracy alone — they are evaluated with a
 **multi-dimensional metric set** (`src/evaluate.py`):
@@ -155,7 +155,7 @@ Models are not judged by accuracy alone — they are evaluated with a
 
 ---
 
-## Visualizations
+## 📊 Visualizations
 
 The `src/visualize.py` module produces the following plots:
 
@@ -169,7 +169,7 @@ The `src/visualize.py` module produces the following plots:
 
 ---
 
-## Installation & Usage
+## 🚀 Installation & Usage
 
 ### 1. Clone the repository
 ```bash
@@ -214,7 +214,7 @@ Run the cells in order to execute the full pipeline from start to finish.
 
 ---
 
-## Key Constants
+## ⚙️ Key Constants
 
 Defined in `src/config.py`:
 
