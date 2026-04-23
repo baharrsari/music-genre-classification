@@ -169,51 +169,6 @@ The `src/visualize.py` module produces the following plots:
 
 ---
 
-## 🚀 Installation & Usage
-
-### 1. Clone the repository
-```bash
-git clone <repo-url>
-cd MusicGenreClassification
-```
-
-### 2. Install dependencies
-```bash
-pip install librosa scikit-learn xgboost pandas numpy matplotlib seaborn jupyter
-```
-
-### 3. Download the dataset
-Download the [GTZAN dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
-and place it under `data/raw/genres_original/`. The folder structure
-should look like this:
-
-```
-data/raw/genres_original/
-├── blues/
-├── classical/
-├── country/
-└── ... (10 genres in total)
-```
-
-### 4. Update the path in `config.py`
-The project was originally written for Google Colab, so `BASE_DIR` in
-`src/config.py` points to
-`/content/drive/MyDrive/MusicGenreClassification`. When running locally,
-update it to match your own path:
-
-```python
-BASE_DIR = Path(".").resolve()   # or the absolute path to the project
-```
-
-### 5. Open the notebook
-```bash
-jupyter notebook notebooks/01_main_pipeline.ipynb
-```
-
-Run the cells in order to execute the full pipeline from start to finish.
-
----
-
 ## ⚙️ Key Constants
 
 Defined in `src/config.py`:
@@ -224,3 +179,9 @@ Defined in `src/config.py`:
 | `SAMPLE_RATE` | `22050` | Sampling rate used by librosa |
 | `TEST_SIZE` | `0.20` | Test set ratio |
 | `VAL_SIZE` | `0.10` | Validation set ratio |
+
+---
+
+## 👤 Author
+
+**Bahar Sarımehmetoğlu**
