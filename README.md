@@ -169,19 +169,6 @@ The `src/visualize.py` module produces the following plots:
 
 ---
 
-## ⚙️ Key Constants
-
-Defined in `src/config.py`:
-
-| Constant | Value | Description |
-|---|---|---|
-| `RANDOM_STATE` | `42` | Reproducibility for all splits and models |
-| `SAMPLE_RATE` | `22050` | Sampling rate used by librosa |
-| `TEST_SIZE` | `0.20` | Test set ratio |
-| `VAL_SIZE` | `0.10` | Validation set ratio |
-
----
-
 ## 👤 Author
 
 **Bahar Sarımehmetoğlu**
